@@ -1,10 +1,13 @@
 # TpProde_UTN_AP4.0_Java
 Trabajo práctico final del curso de **DESARROLLADOR JAVA INICIAL** dictado por **UTN** en el marco del programa **AP 4.0**.
 
-Se trata de un juego de prode en el cual cierta cantidad de jugadores apuestan por posibles resultados de los paridos jugados en el marco de un campeonato. 
+Se trata de un juego de prode en el cual cierta cantidad de jugadores apuestan por posibles resultados de los partidos jugados en el marco de un campeonato. 
 Por cada resultado que el apostador acierta, suma 1 punto. En caso de acertar el resultado exacto, suma 2 puntos más...o sea, 3 puntos.
 Quien tiene mas aciertos gana. 
 Cada apuesta o pronóstico representa una ronda o fecha de partidos.
+En el código se hacen uso de colecciones. 
+Los datos se een desde una base de datos vinculada.
+
 
 El proyecto fué programado con **Java** como lenguaje y, como herramienta de software para la gestión y construcción, se utilizó  *Maven** con dependencias como **Lombok** y **MySQL**. 
 Para la persistencia de datos para vincularse a la BBDD en **MySQL**, se hizo uso de la API **JDBC** .
